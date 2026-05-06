@@ -13,6 +13,15 @@
 };
 
 / {
+
+
+
+
+
+
+
+
+
         keymap {
                 compatible = "zmk,keymap";
 
@@ -40,7 +49,7 @@
                                                                &kp LWIN         &kp LALT            							                                                                        &kp KP_NUMBER_0    &kp KP_DOT 
                                                                                                                  &kp BACKSPACE    &kp SPACE               &kp SPACE     &none
                                                                                                                  &none            &kp RET                 &kp RET       &tog 3
-                                                                                                                 &kp PSCRN        &kp BSLH                &tog 0        &tog 2
+                                                                                                                 &kp PSCRN        &kp BSLH                &tog 1        &tog 2
                                         >;
                                 };
 
@@ -54,7 +63,7 @@
                                                                 &kp LWIN        &kp LALT             			                  	                                                                    &none              &none
                                                                                                                 &soft_off         &mo 1 	              &none         &none 
                                                                                                                 &studio_unlock 	  &mo 2      	          &none         &tog 3 
-                                                                                                                &none             &none                   &tog 1        &tog 0		
+                                                                                                                &none             &none                   &tog 1        &tog 2		
                                         >;		
 
                                  };
@@ -68,9 +77,19 @@
                                 &kp LSHFT       &kp Z           &kp X           &kp C           &kp V           &kp B                                                   &kp N      &kp M                &kp COMMA         &kp DOT             &kp SLASH      &kp RSHFT 
                                                                 &kp LWIN        &kp LALT                                                        		                                                &none             &none 
                                                                                                                 &kp BACKSPACE     &kp SPACE               &kp SPACE     &none
-                                                                                                                &none             &kp RET                 &kp RET       &tog 0
+                                                                                                                &none             &kp RET                 &kp RET       &tog 3
                                                                                                                 &kp PSCRN         &kp BSLH                &tog 1        &tog 2		
                                         >;	
                                 };
                 };
+
+
+
+
+
+
+
+
+
+
 };
